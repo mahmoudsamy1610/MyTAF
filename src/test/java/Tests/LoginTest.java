@@ -15,7 +15,7 @@ public class LoginTest extends TestBase {
 
 	HomePage homeObject ;
 	LoginPage loginObject ;
-	
+	//this edit from PC rbna yostor
 	
 	@Test(priority = 1)
 	public void openLoginPage( ) {
