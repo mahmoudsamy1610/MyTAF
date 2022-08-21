@@ -26,7 +26,7 @@ public class RegTest extends TestBase {
 		 homeObject.openRegPage();
 		 
 		 RegObject = new RegPage(driver) ; 
-		 RegObject.userREG("mahmoud", "samy", "mahmoud1234@gmail.com", "12345678");
+		 RegObject.userREG("mahmoud", "samy", "mahmoud12345@gmail.com", "12345678");
 		
 
 		 
