@@ -45,7 +45,8 @@ public class HomePage extends PageBase {
 		clickBTN(RegLink);
 	}
 	
-	public void openLoginPage () {
+	public void openLoginPage () throws InterruptedException {
+		Thread.sleep(2000) ;;
 		clickBTN(LoginLink);
 	}
 	
