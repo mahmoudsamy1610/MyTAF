@@ -4,14 +4,15 @@
   <parameter name="browser" value="Chrome"/>
   <test thread-count="5" name="regression testing(failed)" verbose="0">
     <classes>
-      <class name="Tests.RegTest">
+      <class name="Tests.LoginTest">
         <methods>
           <include name="setUpClass"/>
-          <include name="Result"/>
           <include name="tearDownClass"/>
+          <include name="openLoginPage"/>
+          <include name="LogResult"/>
           <include name="StartDriver"/>
         </methods>
-      </class> <!-- Tests.RegTest -->
+      </class> <!-- Tests.LoginTest -->
     </classes>
   </test> <!-- regression testing(failed) -->
 </suite> <!-- Failed suite [Regression] -->

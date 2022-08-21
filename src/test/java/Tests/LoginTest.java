@@ -19,14 +19,15 @@ public class LoginTest extends TestBase {
 	// PC 2
 	
 	@Test(priority = 1)
-	public void openLoginPage( ) {
+	public void openLoginPage( ) throws InterruptedException {
 		
 		homeObject = new HomePage(driver);
-		homeObject.openLoginPage();
+		//homeObject.openLoginPage();
 		
-		
+		 driver.navigate().to("https://demo.nopcommerce.com/login?returnUrl=%2F");
+
 		loginObject = new LoginPage(driver) ;
-		loginObject.UserLogin("mahmoud@gmail.com", "123456789");
+		loginObject.UserLogin("mahmoud123@gmail.com", "123456789");
 		
 	}
 
