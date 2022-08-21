@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,8 +39,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Regression" class="navigator-link">
-              <span class="suite-name border-passed">Regression</span>
+            <a href="#" panel-name="suite-RegressionPARA" class="navigator-link">
+              <span class="suite-name border-failed">RegressionPARA</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,37 +50,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Regression" class="navigator-link ">
-                    <span>D:\Development\Java\Java_projects\MyTAF\testNG.xml</span>
+                  <a href="#" panel-name="test-xml-RegressionPARA" class="navigator-link ">
+                    <span>D:\Development\Java\Java_projects\MyTAF\testNGPara.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Regression" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                  <a href="#" panel-name="testlist-RegressionPARA" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Regression" class="navigator-link ">
+                  <a href="#" panel-name="group-RegressionPARA" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Regression" class="navigator-link ">
+                  <a href="#" panel-name="times-RegressionPARA" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Regression" class="navigator-link ">
+                  <a href="#" panel-name="reporter-RegressionPARA" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Regression" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-RegressionPARA" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Regression" class="navigator-link ">
+                  <a href="#" panel-name="chronological-RegressionPARA" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -93,36 +93,55 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">6 methods, 3 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-RegressionPARA" class="hide-methods failed suite-RegressionPARA"> (hide)</a> <!-- hide-methods failed suite-RegressionPARA -->
+                      <a href="#" panel-name="suite-RegressionPARA" class="show-methods failed suite-RegressionPARA"> (show)</a> <!-- show-methods failed suite-RegressionPARA -->
+                    </span>
+                    <div class="method-list-content failed suite-RegressionPARA">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionPARA" title="Tests.RegTestPara" class="method navigator-link" hash-for-method="Result">Result</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionPARA" title="Tests.RegTestPara" class="method navigator-link" hash-for-method="Result">Result</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionPARA" title="Tests.RegTestPara" class="method navigator-link" hash-for-method="Result">Result</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-RegressionPARA -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Regression" class="hide-methods passed suite-Regression"> (hide)</a> <!-- hide-methods passed suite-Regression -->
-                      <a href="#" panel-name="suite-Regression" class="show-methods passed suite-Regression"> (show)</a> <!-- show-methods passed suite-Regression -->
+                      <a href="#" panel-name="suite-RegressionPARA" class="hide-methods passed suite-RegressionPARA"> (hide)</a> <!-- hide-methods passed suite-RegressionPARA -->
+                      <a href="#" panel-name="suite-RegressionPARA" class="show-methods passed suite-RegressionPARA"> (show)</a> <!-- show-methods passed suite-RegressionPARA -->
                     </span>
-                    <div class="method-list-content passed suite-Regression">
+                    <div class="method-list-content passed suite-RegressionPARA">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Regression" title="Tests.LoginTest" class="method navigator-link" hash-for-method="LogResult">LogResult</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-RegressionPARA" title="Tests.RegTestPara" class="method navigator-link" hash-for-method="UserRegTest">UserRegTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Regression" title="Tests.RegTest" class="method navigator-link" hash-for-method="Result">Result</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-RegressionPARA" title="Tests.RegTestPara" class="method navigator-link" hash-for-method="UserRegTest">UserRegTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Regression" title="Tests.RegTest" class="method navigator-link" hash-for-method="UserRegTest">UserRegTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-RegressionPARA" title="Tests.RegTestPara" class="method navigator-link" hash-for-method="UserRegTest">UserRegTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Regression" title="Tests.LoginTest" class="method navigator-link" hash-for-method="openLoginPage">openLoginPage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-Regression -->
+                    </div> <!-- method-list-content passed suite-RegressionPARA -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -133,11 +152,11 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Regression" class="panel Regression">
-          <div class="suite-Regression-class-passed">
+        <div panel-name="suite-RegressionPARA" class="panel RegressionPARA">
+          <div class="suite-RegressionPARA-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">Tests.RegTest</span>
+              <img src="failed.png"/>
+              <span class="class-name">Tests.RegTestPara</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -145,6 +164,134 @@
                   <a name="Result">
                   </a> <!-- Result -->
                   <span class="method-name">Result</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;div.result&quot;}
+  (Session info: chrome=104.0.5112.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;DESKTOP-U7NCNIN&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [c50b2b7bcc4b3294eccfd16b5d9db13b, findElement {using=css selector, value=div.result}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\MAHMOU~1.SAM\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:52989}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://192.168.1.8:4444/sessi..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c50b2b7bcc4b3294eccfd16b5d9db13b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.getText(Unknown Source)
+	at Pages.RegPage.StoreResult(RegPage.java:100)
+	at Tests.RegTestPara.Result(RegTestPara.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Result">
+                  </a> <!-- Result -->
+                  <span class="method-name">Result</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: div.result
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;DESKTOP-U7NCNIN&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [fb09ecd7-6bf4-4454-9971-11595c9bf73e, findElement {using=css selector, value=div.result}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 103.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220808125904, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11856, moz:profile: C:\Users\MAHMOU~1.SAM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://192.168.1.8:4444/sessi..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fb09ecd7-6bf4-4454-9971-11595c9bf73e
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.getText(Unknown Source)
+	at Pages.RegPage.StoreResult(RegPage.java:100)
+	at Tests.RegTestPara.Result(RegTestPara.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Result">
+                  </a> <!-- Result -->
+                  <span class="method-name">Result</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;div.result&quot;}
+  (Session info: chrome=104.0.5112.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;DESKTOP-U7NCNIN&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a85a31473418abcb38bb65c7a715b2e3, findElement {using=css selector, value=div.result}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\MAHMOU~1.SAM\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:53018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://192.168.1.8:4444/sessi..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a85a31473418abcb38bb65c7a715b2e3
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.getText(Unknown Source)
+	at Pages.RegPage.StoreResult(RegPage.java:100)
+	at Tests.RegTestPara.Result(RegTestPara.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionPARA-class-failed -->
+          <div class="suite-RegressionPARA-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.RegTestPara</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserRegTest">
+                  </a> <!-- UserRegTest -->
+                  <span class="method-name">UserRegTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserRegTest">
+                  </a> <!-- UserRegTest -->
+                  <span class="method-name">UserRegTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -155,177 +302,176 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Regression-class-passed -->
-          <div class="suite-Regression-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">Tests.LoginTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="LogResult">
-                  </a> <!-- LogResult -->
-                  <span class="method-name">LogResult</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="openLoginPage">
-                  </a> <!-- openLoginPage -->
-                  <span class="method-name">openLoginPage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Regression-class-passed -->
-        </div> <!-- panel Regression -->
-        <div panel-name="test-xml-Regression" class="panel">
+          </div> <!-- suite-RegressionPARA-class-passed -->
+        </div> <!-- panel RegressionPARA -->
+        <div panel-name="test-xml-RegressionPARA" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\Development\Java\Java_projects\MyTAF\testNG.xml</span>
+            <span class="header-content">D:\Development\Java\Java_projects\MyTAF\testNGPara.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Regression&quot;&gt;
-  &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;regression testing&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;RegressionPARA&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;chrome regression testing Para&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Tests.RegTest&quot;/&gt;
-      &lt;class name=&quot;Tests.LoginTest&quot;/&gt;
+      &lt;class name=&quot;Tests.RegTestPara&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- regression testing --&gt;
-&lt;/suite&gt; &lt;!-- Regression --&gt;
+  &lt;/test&gt; &lt;!-- chrome regression testing Para --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;firefrox regression testing Para&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Tests.RegTestPara&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- firefrox regression testing Para --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;chrome regression testing Para2&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Tests.RegTestPara&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- chrome regression testing Para2 --&gt;
+&lt;/suite&gt; &lt;!-- RegressionPARA --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Regression" class="panel">
+        <div panel-name="testlist-RegressionPARA" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Regression</span>
+            <span class="header-content">Tests for RegressionPARA</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">regression testing (2 classes)</span>
+                <span class="test-name">chrome regression testing Para (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">firefrox regression testing Para (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">chrome regression testing Para2 (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Regression" class="panel">
+        <div panel-name="group-RegressionPARA" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Regression</span>
+            <span class="header-content">Groups for RegressionPARA</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Regression" class="panel">
+        <div panel-name="times-RegressionPARA" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Regression</span>
+            <span class="header-content">Times for RegressionPARA</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Regression');
-function tableData_Regression() {
+suiteTableInitFunctions.push('tableData_RegressionPARA');
+function tableData_RegressionPARA() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'UserRegTest')
-data.setCell(0, 2, 'Tests.RegTest')
-data.setCell(0, 3, 3333);
+data.setCell(0, 2, 'Tests.RegTestPara')
+data.setCell(0, 3, 4418);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'openLoginPage')
-data.setCell(1, 2, 'Tests.LoginTest')
-data.setCell(1, 3, 1380);
+data.setCell(1, 1, 'UserRegTest')
+data.setCell(1, 2, 'Tests.RegTestPara')
+data.setCell(1, 3, 3658);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'LogResult')
-data.setCell(2, 2, 'Tests.LoginTest')
-data.setCell(2, 3, 42);
+data.setCell(2, 1, 'UserRegTest')
+data.setCell(2, 2, 'Tests.RegTestPara')
+data.setCell(2, 3, 3472);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'Result')
-data.setCell(3, 2, 'Tests.RegTest')
-data.setCell(3, 3, 37);
-window.suiteTableData['Regression']= { tableData: data, tableDiv: 'times-div-Regression'}
+data.setCell(3, 2, 'Tests.RegTestPara')
+data.setCell(3, 3, 36);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Result')
+data.setCell(4, 2, 'Tests.RegTestPara')
+data.setCell(4, 3, 25);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Result')
+data.setCell(5, 2, 'Tests.RegTestPara')
+data.setCell(5, 3, 17);
+window.suiteTableData['RegressionPARA']= { tableData: data, tableDiv: 'times-div-RegressionPARA'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
-              <div id="times-div-Regression">
-              </div> <!-- times-div-Regression -->
+              <span class="suite-total-time">Total running time: 31 seconds</span>
+              <div id="times-div-RegressionPARA">
+              </div> <!-- times-div-RegressionPARA -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Regression" class="panel">
+        <div panel-name="reporter-RegressionPARA" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Regression</span>
+            <span class="header-content">Reporter output for RegressionPARA</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Regression" class="panel">
+        <div panel-name="ignored-methods-RegressionPARA" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">1 ignored method</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">Tests.LoginTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">StartDriver</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Regression" class="panel">
+        <div panel-name="chronological-RegressionPARA" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Tests.RegTest</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">StartDriver(Chrome)</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
+              <div class="chronological-class-name">Tests.RegTestPara</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@6cd166b8)</span>
-                <span class="method-start">6279 ms</span>
+                <span class="method-name">setUP(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUP(firefox)</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">UserRegTest</span>
-                <span class="method-start">6445 ms</span>
+                <span class="method-start">25260 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">Result</span>
-                <span class="method-start">9785 ms</span>
+                <span class="method-name">UserRegTest</span>
+                <span class="method-start">27702 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDownClass</span>
-                <span class="method-start">9823 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Result</span>
+                <span class="method-start">29682 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@6cd166b8)</span>
-                <span class="method-start">9830 ms</span>
+                <span class="method-name">setUP(chrome)</span>
+                <span class="method-start">29762 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">openLoginPage</span>
-                <span class="method-start">9837 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Result</span>
+                <span class="method-start">31181 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">LogResult</span>
-                <span class="method-start">11221 ms</span>
+                <span class="method-name">UserRegTest</span>
+                <span class="method-start">39096 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDownClass</span>
-                <span class="method-start">11264 ms</span>
-              </div> <!-- configuration-class after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Result</span>
+                <span class="method-start">42757 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
