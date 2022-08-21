@@ -27,7 +27,7 @@ public class LoginTest extends TestBase {
 		 driver.navigate().to("https://demo.nopcommerce.com/login?returnUrl=%2F");
 
 		loginObject = new LoginPage(driver) ;
-		loginObject.UserLogin("mahmoud1234@gmail.com", "123456789");
+		loginObject.UserLogin("mahmoud12345@gmail.com", "123456789");
 		
 	}
 
