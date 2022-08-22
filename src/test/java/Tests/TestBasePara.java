@@ -11,16 +11,21 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
+import Data.LoadData;
+
 
 public class TestBasePara {
 	
+	public static String username = LoadData.SauceData.getProperty("username");
+	public static String key = LoadData.SauceData.getProperty("accesskey");
+	public static String SelURL = LoadData.SauceData.getProperty("seleniumURL");
 	
-	public static String BaseURL = "http://demo.nopcommerce.com" ;
-			
+	public static String BaseURL = "http://demo.nopcommerce.com" ;		
 			
 	public ThreadLocal<RemoteWebDriver> driver = null ;
 	
-	
+	//run selenium grid local
+	/*
 	@BeforeClass
 	@Parameters(value= {"browser"}) 
 	public void setUP(String browser) throws MalformedURLException {
@@ -32,9 +37,22 @@ public class TestBasePara {
 		getDriver().navigate().to(BaseURL) ;
 	
 	}
+	*/
 	
-	public WebDriver getDriver () {
+	//run on sauce labs
+	@BeforeClass
+	@Parameters(value= {"browser"}) 
+	public void setUP(String browser) throws MalformedURLException {
 		
+		driver = new ThreadLocal<>() ;
+		DesiredCapabilities caps = new DesiredCapabilities(); 
+		caps.setCapability("browserName", browser);
+		driver.set(new RemoteWebDriver(new URL(SelURL),caps));
+		getDriver().navigate().to(BaseURL) ;
+	
+	}
+	
+	public WebDriver getDriver () {		
 		return driver.get() ;
 	}
 
