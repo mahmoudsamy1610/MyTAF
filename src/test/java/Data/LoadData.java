@@ -10,9 +10,15 @@ import org.apache.commons.digester.plugins.strategies.LoaderSetProperties;
 public class LoadData 
 {
 	
-	
-
+	//loading user data
+	static String PropPath = System.getProperty("user.dir")+"\\src\\main\\java\\properties\\Data.properties" ;
+	public static Properties userData  = loadproperties(PropPath);
 	 
+	//loading user data of saucelabs
+		static String SaucePropPath = System.getProperty("user.dir")+"\\src\\main\\java\\properties\\saucelabsUser.properties" ;
+		public static Properties SauceData  = loadproperties(SaucePropPath);
+	
+	
 	private static Properties loadproperties(String path)  {
 		
 		
@@ -33,9 +39,7 @@ public class LoadData
 	}
 	
 	
-	 static String PropPath = System.getProperty("user.dir")+"\\src\\main\\java\\properties\\Data.properties" ;
 	 
-	public static Properties userData  = loadproperties(PropPath);
 
 
 }
