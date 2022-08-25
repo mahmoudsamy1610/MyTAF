@@ -1,0 +1,87 @@
+Index: .idea/workspace.xml
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,13 +4,24 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="28ed67bd-a856-49c8-999d-885be38fbeec" name="Changes" comment="" />
++    <list default="true" id="28ed67bd-a856-49c8-999d-885be38fbeec" name="Changes" comment="comment TAU12" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
+   <component name="Git.Settings">
++    <option name="PREVIOUS_COMMIT_AUTHORS">
++      <list>
++        <option value="Mahmoud Samy &lt;111228337+mahmoudsamy1610@users.noreply.github.com&gt;" />
++      </list>
++    </option>
++    <option name="PUSH_TAGS">
++      <GitPushTagMode>
++        <option name="argument" value="--follow-tags" />
++        <option name="title" value="Current Branch" />
++      </GitPushTagMode>
++    </option>
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+         <entry key="$PROJECT_DIR$" value="JenkinsFile" />
+@@ -32,7 +43,7 @@
+     </option>
+   </component>
+   <component name="ProjectId" id="2FJ1kGD6y5Ul7G8Hi6AdYjY7b8U" />
+-  <component name="ProjectLevelVcsManager">
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+     <ConfirmationsSetting value="2" id="Add" />
+   </component>
+   <component name="ProjectViewState">
+@@ -157,6 +168,35 @@
+       <option name="presentableId" value="Default" />
+       <updated>1664195518767</updated>
+     </task>
++    <task id="LOCAL-00001" summary="comment TAU1">
++      <created>1664209640821</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1664209640821</updated>
++    </task>
++    <task id="LOCAL-00002" summary="comment TAU12">
++      <created>1664209705455</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1664209705455</updated>
++    </task>
++    <task id="LOCAL-00003" summary="comment TAU12">
++      <created>1664209723230</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1664209723230</updated>
++    </task>
++    <task id="LOCAL-00004" summary="comment TAU12">
++      <created>1664209731254</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1664209731254</updated>
++    </task>
++    <option name="localTasksCounter" value="5" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -172,6 +212,10 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
++    <MESSAGE value="comment TAU" />
++    <MESSAGE value="comment TAU1" />
++    <MESSAGE value="comment TAU12" />
++    <option name="LAST_COMMIT_MESSAGE" value="comment TAU12" />
+   </component>
+   <component name="XSLT-Support.FileAssociations.UIState">
+     <expand />

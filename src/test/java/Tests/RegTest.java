@@ -7,6 +7,10 @@ import org.testng.annotations.Test;
 
 import Pages.HomePage;
 import Pages.RegPage;
+import io.qameta.allure.Description;
+import io.qameta.allure.Link;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import junit.framework.Assert;
 
 public class RegTest extends TestBase { 
@@ -20,13 +24,16 @@ public class RegTest extends TestBase {
 	
 	
 	@Test(priority = 1)
+	@Severity(SeverityLevel.CRITICAL)
+	@Description("Register test case")
+	@Link(url = "http://google.com")
 	public void UserRegTest () throws InterruptedException {
 		
 		 homeObject = new HomePage (driver) ;
 		 homeObject.openRegPage();
 		 
 		 RegObject = new RegPage(driver) ; 
-		 RegObject.userREG("mahmoud", "samy", "mahmoud12345@gmail.com", "12345678");
+		 RegObject.userREG("mahmoud", "samy", "mahmoud1274345@gmail.com", "12345678");
 		
 
 		 
