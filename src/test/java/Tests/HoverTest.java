@@ -8,7 +8,7 @@ public class HoverTest extends TestBase {
 
 	HomePage homeObject ;
 	
-	 //Hover TEST comment TAU
+ comment TAU
 	@Test
 	public void userCanHover () {
 		
