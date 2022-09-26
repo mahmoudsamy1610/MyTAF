@@ -9,5 +9,6 @@
         <module name="MyTAF" />
       </profile>
     </annotationProcessing>
+
   </component>
 </project>
