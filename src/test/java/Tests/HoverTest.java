@@ -8,7 +8,7 @@ public class HoverTest extends TestBase {
 
 	HomePage homeObject ;
 	
-
+//CMD
 	@Test
 	public void userCanHover () {
 		
